@@ -8,8 +8,15 @@
       d:DesignHeight="450" d:DesignWidth="800"
       Title="Page1">
 
-      <StackPanel>
+      <StackPanel Background="White">
         <Label Margin="5">Пример обычной страницы</Label>
-          
-      </StackPanel>
+        <TextBlock Margin="5">
+            Это обычная страница. А это <Hyperlink NavigateUri="Page2.xaml">ссылка на другую страницу!(page2)</Hyperlink>
+        </TextBlock>
+        <TextBlock Margin="5">
+            Это обычная страница. А это  <Hyperlink NavigateUri="Page3.xaml">Страничные интерфейсы(page3)</Hyperlink>
+        </TextBlock>
+        <Button Margin="3,0,3,0" Padding="3">ОК</Button>
+        <Button Padding="3" Margin="3">Close</Button>
+    </StackPanel>
 </Page>

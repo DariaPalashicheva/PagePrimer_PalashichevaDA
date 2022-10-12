@@ -5,8 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PagePrimer_PalashichevaDA"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="700" Width="800">
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <TextBlock TextWrapping="Wrap" Margin="5">Данная страница находится в оконном приложении</TextBlock>
+        <Frame Source="Page1.xaml" Margin="299,3,3,505" BorderBrush="LimeGreen" BorderThickness="2" Grid.ColumnSpan="2"/>
+        <Frame Source="Page2.xaml" Margin="299,164,172,0" BorderBrush="LimeGreen" BorderThickness="2" Grid.ColumnSpan="2"/>
+        <Frame Grid.Column="1" Source="Page3.xaml" Margin="224,164,3,0" BorderBrush="LimeGreen" BorderThickness="2"></Frame>
     </Grid>
 </Window>
