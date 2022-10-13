@@ -10,28 +10,18 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace PagePrimer_PalashichevaDA
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для zadanie2.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class zadanie2 : Window
     {
-        public MainWindow()
+        public zadanie2()
         {
             InitializeComponent();
-        }
-
-        private void zd2_Click(object sender, RoutedEventArgs e)
-        {
-            //zd.Navigate(new Uri("zadanie2.xaml", UriKind.Relative)); просто оставила на будущее как пример
-            zadanie2 zadanie2 = new zadanie2();
-            zadanie2.Show();
-
-
         }
     }
 }

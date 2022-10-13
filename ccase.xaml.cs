@@ -16,22 +16,13 @@ using System.Windows.Shapes;
 namespace PagePrimer_PalashichevaDA
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для ccase.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class ccase : Page
     {
-        public MainWindow()
+        public ccase()
         {
             InitializeComponent();
-        }
-
-        private void zd2_Click(object sender, RoutedEventArgs e)
-        {
-            //zd.Navigate(new Uri("zadanie2.xaml", UriKind.Relative)); просто оставила на будущее как пример
-            zadanie2 zadanie2 = new zadanie2();
-            zadanie2.Show();
-
-
         }
     }
 }

@@ -16,22 +16,13 @@ using System.Windows.Shapes;
 namespace PagePrimer_PalashichevaDA
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для case1.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class case1 : Page
     {
-        public MainWindow()
+        public case1()
         {
             InitializeComponent();
-        }
-
-        private void zd2_Click(object sender, RoutedEventArgs e)
-        {
-            //zd.Navigate(new Uri("zadanie2.xaml", UriKind.Relative)); просто оставила на будущее как пример
-            zadanie2 zadanie2 = new zadanie2();
-            zadanie2.Show();
-
-
         }
     }
 }

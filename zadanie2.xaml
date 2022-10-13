@@ -1,0 +1,23 @@
+﻿<Window x:Class="PagePrimer_PalashichevaDA.zadanie2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PagePrimer_PalashichevaDA"
+        mc:Ignorable="d"
+        Title="zadanie2" Height="450" Width="800" Background="#FFD3DFE4">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height ="9"></RowDefinition>
+            <RowDefinition Height ="375"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Label Content="Menu: Load Case/Save/New Case" HorizontalAlignment="Left" VerticalAlignment="Top" Height="35" Width="792" Grid.ColumnSpan="2" Background="#FF6E95EA" Foreground="White" FontSize="18"/>
+        <Frame Source="case.xaml" HorizontalAlignment="Left" Height="299" Margin="48,30,0,0" Grid.Row="2" VerticalAlignment="Top" Width="204"/>
+        <Frame x:Name="EditCase" Source="case1.xaml" HorizontalAlignment="Left" Height="299" Margin="51,30,0,0" Grid.Row="2" VerticalAlignment="Top" Width="204" Grid.Column="1"/>
+    </Grid>
+</Window>

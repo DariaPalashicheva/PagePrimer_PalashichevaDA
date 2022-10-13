@@ -11,7 +11,12 @@
             <ColumnDefinition></ColumnDefinition>
             <ColumnDefinition></ColumnDefinition>
         </Grid.ColumnDefinitions>
-        <TextBlock TextWrapping="Wrap" Margin="5">Данная страница находится в оконном приложении</TextBlock>
+        <StackPanel>
+            <TextBlock TextWrapping="Wrap" Margin="5">Данная страница находится в оконном приложении</TextBlock>
+            <TextBlock Margin="5,5,182,5">
+            <Hyperlink Click="zd2_Click">Задание 2</Hyperlink>
+            </TextBlock>
+        </StackPanel>
         <Frame Source="Page1.xaml" Margin="299,3,3,505" BorderBrush="LimeGreen" BorderThickness="2" Grid.ColumnSpan="2"/>
         <Frame Source="Page2.xaml" Margin="299,164,172,0" BorderBrush="LimeGreen" BorderThickness="2" Grid.ColumnSpan="2"/>
         <Frame Grid.Column="1" Source="Page3.xaml" Margin="224,164,3,0" BorderBrush="LimeGreen" BorderThickness="2"></Frame>
