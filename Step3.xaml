@@ -1,0 +1,16 @@
+﻿<Page x:Class="PagePrimer_PalashichevaDA.Step3"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:PagePrimer_PalashichevaDA"
+      mc:Ignorable="d" 
+      d:DesignHeight="400" d:DesignWidth="582"
+      Title="Step3">
+
+    <Grid>
+        <Label Content="Step 3" HorizontalContentAlignment="center" Margin="25,24,393,0" VerticalAlignment="Top" Background="#FFE3EFD9" FontSize="20" Width="164"/>
+        <Button Content="Next" HorizontalAlignment="Left" Margin="370,341,0,0" VerticalAlignment="Top" Width="174" Background="#FFE3EFD9" FontSize="20" Height="39"/>
+        <Label Content="Custom control form" VerticalContentAlignment="Center" HorizontalContentAlignment="center" Margin="25,84,38,0" VerticalAlignment="Top" Background="#FFE3EFD9" FontSize="20" Height="224"/>
+    </Grid>
+</Page>

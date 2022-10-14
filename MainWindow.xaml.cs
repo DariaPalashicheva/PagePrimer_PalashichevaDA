@@ -31,5 +31,11 @@ namespace PagePrimer_PalashichevaDA
             zadanie2 zadanie2 = new zadanie2();
             zadanie2.Show();
         }
+        private void Zd3_Click(object sender, RoutedEventArgs e)
+        {
+            //zd.Navigate(new Uri("zadanie2.xaml", UriKind.Relative)); просто оставила на будущее как пример
+            zadanie3 zadanie3 = new zadanie3();
+            zadanie3.Show();
+        }
     }
 }

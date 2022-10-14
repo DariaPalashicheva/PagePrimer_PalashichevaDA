@@ -61,8 +61,20 @@
     <Compile Include="Cases.xaml.cs">
       <DependentUpon>Cases.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Step1.xaml.cs">
+      <DependentUpon>Step1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Step2.xaml.cs">
+      <DependentUpon>Step2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Step3.xaml.cs">
+      <DependentUpon>Step3.xaml</DependentUpon>
+    </Compile>
     <Compile Include="zadanie2.xaml.cs">
       <DependentUpon>zadanie2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="zadanie3.xaml.cs">
+      <DependentUpon>zadanie3.xaml</DependentUpon>
     </Compile>
     <Page Include="case1.xaml">
       <SubType>Designer</SubType>
@@ -96,7 +108,23 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Step1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Step2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Step3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="zadanie2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="zadanie3.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
