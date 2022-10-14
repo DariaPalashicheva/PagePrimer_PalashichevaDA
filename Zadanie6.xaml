@@ -1,0 +1,18 @@
+﻿<Window x:Class="PagePrimer_PalashichevaDA.Zadanie6"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PagePrimer_PalashichevaDA"
+        mc:Ignorable="d"
+        Title="Zadanie6" Height="450" Width="800">
+    <Grid>
+        <Rectangle Fill="#FF3E4A72" HorizontalAlignment="Left" Height="422" Margin="0,-3,0,0" Stroke="Black" VerticalAlignment="Top" Width="120"/>
+        <Image Source="Image/home.png" Margin="25,31,709,330" MouseDown="Image_MouseDown"/>
+        <Image Source="Image/inbox.png" Margin="25,102,709,260"/>
+        <Image Source="Image/cloud.png" Margin="-4,143,677,149"/>
+        <Image Source="Image/sett.png" Margin="25,253,709,109"/>
+        <Image Source="Image/spam.png" Margin="25,333,709,28"/>
+        <Frame x:Name="main" Source="Empty.xaml" HorizontalAlignment="Left" Height="419" Margin="120,0,0,0" VerticalAlignment="Top" Width="672"/>
+    </Grid>
+</Window>

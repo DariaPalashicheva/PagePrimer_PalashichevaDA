@@ -25,6 +25,9 @@
             <TextBlock Margin="5,5,182,5">
                 <Hyperlink Click="Zd5_Click" FontSize="20">Задание 5</Hyperlink>
             </TextBlock>
+            <TextBlock Margin="5,5,182,5">
+                <Hyperlink Click="Zd6_Click" FontSize="20">Задание 6</Hyperlink>
+            </TextBlock>
         </StackPanel>
         <Frame Source="Page1.xaml" Margin="299,3,3,505" BorderBrush="LimeGreen" BorderThickness="2" Grid.ColumnSpan="2"/>
         <Frame Source="Page2.xaml" Margin="299,164,172,0" BorderBrush="LimeGreen" BorderThickness="2" Grid.ColumnSpan="2"/>

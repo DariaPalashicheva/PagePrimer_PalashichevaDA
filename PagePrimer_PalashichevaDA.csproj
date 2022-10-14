@@ -61,11 +61,17 @@
     <Compile Include="Cases.xaml.cs">
       <DependentUpon>Cases.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Empty.xaml.cs">
+      <DependentUpon>Empty.xaml</DependentUpon>
+    </Compile>
     <Compile Include="framezd5.xaml.cs">
       <DependentUpon>framezd5.xaml</DependentUpon>
     </Compile>
     <Compile Include="homezd4.xaml.cs">
       <DependentUpon>homezd4.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Main.xaml.cs">
+      <DependentUpon>Main.xaml</DependentUpon>
     </Compile>
     <Compile Include="Step1.xaml.cs">
       <DependentUpon>Step1.xaml</DependentUpon>
@@ -88,6 +94,9 @@
     <Compile Include="Zadanie5.xaml.cs">
       <DependentUpon>Zadanie5.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Zadanie6.xaml.cs">
+      <DependentUpon>Zadanie6.xaml</DependentUpon>
+    </Compile>
     <Page Include="case1.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -96,11 +105,19 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Empty.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="framezd5.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="homezd4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Main.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -156,6 +173,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Zadanie6.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Page1.xaml.cs">
@@ -203,6 +224,9 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Image\acad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\cloud.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
