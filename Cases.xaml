@@ -1,0 +1,19 @@
+﻿<Page x:Class="PagePrimer_PalashichevaDA.Cases"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:PagePrimer_PalashichevaDA"
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="150"
+      Title="Cases">
+
+    <Grid>
+        <Label HorizontalContentAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Top" Height="300" Width="150" Background="#FF6E95EA" Foreground="White" FontSize="18" BorderThickness="2" BorderBrush="BlueViolet"></Label>
+        <Label Content="-Case1"  HorizontalAlignment="Left" Margin="37,10,0,0" VerticalAlignment="Top" Foreground="White" FontSize="18"/>
+        <Label Content="-Case2"  HorizontalAlignment="Left" Margin="37,44,0,0" VerticalAlignment="Top" Foreground="White" FontSize="18"/>
+        <Label Content="-Case3"  HorizontalAlignment="Left" Margin="37,78,0,0" VerticalAlignment="Top" Foreground="White" FontSize="18"/>
+        <Label Content="-Case4"  HorizontalAlignment="Left" Margin="37,112,0,0" VerticalAlignment="Top" Foreground="White" FontSize="18"/>
+        <Label Content="-Case5"  HorizontalAlignment="Left" Margin="37,146,0,0" VerticalAlignment="Top" Foreground="White" FontSize="18"/>
+    </Grid>
+</Page>

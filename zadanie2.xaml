@@ -13,11 +13,13 @@
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition></RowDefinition>
-            <RowDefinition Height ="9"></RowDefinition>
-            <RowDefinition Height ="375"></RowDefinition>
+            <RowDefinition Height ="44" ></RowDefinition>
+            <RowDefinition Height ="340*"></RowDefinition>
         </Grid.RowDefinitions>
-        <Label Content="Menu: Load Case/Save/New Case" HorizontalAlignment="Left" VerticalAlignment="Top" Height="35" Width="792" Grid.ColumnSpan="2" Background="#FF6E95EA" Foreground="White" FontSize="18"/>
-        <Frame Source="case.xaml" HorizontalAlignment="Left" Height="299" Margin="48,30,0,0" Grid.Row="2" VerticalAlignment="Top" Width="204"/>
-        <Frame x:Name="EditCase" Source="case1.xaml" HorizontalAlignment="Left" Height="299" Margin="51,30,0,0" Grid.Row="2" VerticalAlignment="Top" Width="204" Grid.Column="1"/>
+        <Border BorderBrush="Cyan" BorderThickness="2" Grid.RowSpan="2" Grid.ColumnSpan="2" Margin="0,43,0,0" Grid.Row="1"/>
+        <Label Content="Menu: Load Case/Save/New Case" HorizontalAlignment="Left" VerticalAlignment="Top" Height="44" Width="792" Grid.ColumnSpan="2" Background="#FF6E95EA" Foreground="White" FontSize="18" BorderThickness="2" BorderBrush="BlueViolet" Grid.RowSpan="2"/>
+        <Frame Source="Cases.xaml"  Height="300" Margin="35,28,211,0" Grid.Row="2" VerticalAlignment="Top" Width="150"/>
+        <Frame x:Name="EditCase" Source="case1.xaml"  Height="299" Margin="253,28,39,0" Grid.Row="2" VerticalAlignment="Top" Width="500" Grid.ColumnSpan="2"/>
+
     </Grid>
 </Window>

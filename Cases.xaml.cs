@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace PagePrimer_PalashichevaDA
 {
     /// <summary>
-    /// Логика взаимодействия для ccase.xaml
+    /// Логика взаимодействия для Cases.xaml
     /// </summary>
-    public partial class ccase : Page
+    public partial class Cases : Page
     {
-        public ccase()
+        public Cases()
         {
             InitializeComponent();
         }
