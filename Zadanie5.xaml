@@ -1,0 +1,36 @@
+﻿<Window x:Class="PagePrimer_PalashichevaDA.Zadanie5"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PagePrimer_PalashichevaDA"
+        mc:Ignorable="d"
+        Title="Zadanie5" Height="500" Width="1200">
+    <Grid Background="#FF404040">
+        <StackPanel Margin="0,60,1012,0">
+            <Button Foreground="White" Content="Найти МД" HorizontalAlignment="Left" Margin="10,35,0,0" VerticalAlignment="Top" Width="137" Background="{x:Null}" FontSize="14" />
+            <Button Foreground="White" Content="Изменить IP адрес" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="137" Background="{x:Null}" FontSize="14" />
+            <Button Foreground="White" Content="Подключить" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="137" Background="{x:Null}" FontSize="14" />
+            <Button Foreground="White" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="137" Background="{x:Null}" FontSize="14" Height="43">
+                <TextBlock TextAlignment="Center"><Run Text="Сменить CMA"/><LineBreak/><Run Text="Пароль"/></TextBlock>
+            </Button>
+            <Button Foreground="White" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="137" Background="{x:Null}" FontSize="14" Height="43">
+                <TextBlock TextAlignment="Center"><Run Text="Изменить Объект"/><LineBreak/><Run Text="и Место"/></TextBlock>
+            </Button>
+            <Button Foreground="White" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="137" Background="{x:Null}" FontSize="14" Height="43">
+                <TextBlock TextAlignment="Center"><Run Text="Изменить Дату"/><LineBreak/><Run Text="и Время"/></TextBlock>
+            </Button>
+            <Button Foreground="White" Content="Добавить МД" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="137" Background="{x:Null}" FontSize="14" />
+            <Button Foreground="White" Content="Переместить МД" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="137" Background="{x:Null}" FontSize="14" />
+        </StackPanel>
+        <Border BorderBrush="White" BorderThickness="1" Margin="0,53,1012,0"/>
+        <Border BorderBrush="White" BorderThickness="1" Margin="185,53,0,0">
+        </Border>
+        <Button BorderBrush="White" Foreground="White" Content="Настройка сети" HorizontalAlignment="Left" VerticalAlignment="Top" Width="180" Background="{x:Null}" FontSize="14" Height="37" />
+        <Button BorderBrush="White" Foreground="White" Content="Настройка МД" HorizontalAlignment="Left" VerticalAlignment="Top" Width="155" Background="{x:Null}" FontSize="14" Height="37" Margin="180,0,0,0" />
+        <Label  Foreground="White" Content="МД в сети" Margin="204,37,870,385" Background="#FF404040"/>
+        <Label Foreground="White" Content="Настройка Сети" Margin="10,37,1039,389" Background="#FF404040"/>
+        <Frame Source="framezd5.xaml" Margin="185,84,0,0"/>
+        <Label  Foreground="White" Content="Адрес компьютера: 192.168.201.163" Margin="953,57,20,374" Background="{x:Null}"/>
+    </Grid>
+</Window>
