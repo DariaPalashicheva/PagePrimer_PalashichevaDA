@@ -1,0 +1,24 @@
+﻿<Window x:Class="PagePrimer_PalashichevaDA.zadanie4"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PagePrimer_PalashichevaDA"
+        mc:Ignorable="d"
+        Title="zadanie4" Height="450" Width="800" Background="#FF5B7299">
+    <Grid>
+        <Label Foreground="White" Content="C# Ui Academy" HorizontalAlignment="Left" Margin="328,20,0,0" VerticalAlignment="Top" FontSize="20" FontWeight="Bold"/>
+        <Label Foreground="White" Content="Home" HorizontalAlignment="Left" Margin="40,161,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Label Foreground="White" Content="Inbox" HorizontalAlignment="Left" Margin="40,198,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Label Foreground="White" Content="Sent items" HorizontalAlignment="Left" Margin="40,235,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Label Foreground="White" Content="Spam" HorizontalAlignment="Left" Margin="40,277,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Label Foreground="White" Content="Settings" HorizontalAlignment="Left" Margin="40,319,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Frame Source="homezd4.xaml" HorizontalAlignment="Left" Height="352" Margin="144,57,0,0" VerticalAlignment="Top" Width="638"/>
+        <Image Source="Image/home.png" Height="30" Width="30" Margin="10,168,752,221"/>
+        <Image Source="Image/inbox.png" Height="30" Width="30" Margin="10,205,752,184"/>
+        <Image Source="Image/sent.png" Height="30" Width="30" Margin="10,242,752,147"/>
+        <Image Source="Image/spam.png" Height="30" Width="30" Margin="10,284,752,105"/>
+        <Image Source="Image/sett.png" Height="30" Width="30" Margin="10,326,752,63"/>
+        <Image Source="Image/acad.png" Width="130" Margin="9,10,653,275"/>
+    </Grid>
+</Window>

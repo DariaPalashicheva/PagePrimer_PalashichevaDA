@@ -61,6 +61,9 @@
     <Compile Include="Cases.xaml.cs">
       <DependentUpon>Cases.xaml</DependentUpon>
     </Compile>
+    <Compile Include="homezd4.xaml.cs">
+      <DependentUpon>homezd4.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Step1.xaml.cs">
       <DependentUpon>Step1.xaml</DependentUpon>
     </Compile>
@@ -76,11 +79,18 @@
     <Compile Include="zadanie3.xaml.cs">
       <DependentUpon>zadanie3.xaml</DependentUpon>
     </Compile>
+    <Compile Include="zadanie4.xaml.cs">
+      <DependentUpon>zadanie4.xaml</DependentUpon>
+    </Compile>
     <Page Include="case1.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Cases.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="homezd4.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -128,6 +138,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="zadanie4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Page1.xaml.cs">
@@ -163,6 +177,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\inbox.png" />
+    <Resource Include="Image\sent.png" />
+    <Resource Include="Image\sett.png" />
+    <Resource Include="Image\spam.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\acad.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
