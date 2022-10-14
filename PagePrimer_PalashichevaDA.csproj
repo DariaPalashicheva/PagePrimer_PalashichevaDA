@@ -67,6 +67,9 @@
     <Compile Include="framezd5.xaml.cs">
       <DependentUpon>framezd5.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Framezd55.xaml.cs">
+      <DependentUpon>Framezd55.xaml</DependentUpon>
+    </Compile>
     <Compile Include="homezd4.xaml.cs">
       <DependentUpon>homezd4.xaml</DependentUpon>
     </Compile>
@@ -94,6 +97,9 @@
     <Compile Include="Zadanie5.xaml.cs">
       <DependentUpon>Zadanie5.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Zadanie55.xaml.cs">
+      <DependentUpon>Zadanie55.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Zadanie6.xaml.cs">
       <DependentUpon>Zadanie6.xaml</DependentUpon>
     </Compile>
@@ -110,6 +116,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="framezd5.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Framezd55.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -170,6 +180,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Zadanie5.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Zadanie55.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
