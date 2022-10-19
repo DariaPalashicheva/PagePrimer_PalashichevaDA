@@ -26,6 +26,9 @@
                 <Hyperlink Click="Zd5_Click" FontSize="20">Задание 5</Hyperlink>
             </TextBlock>
             <TextBlock Margin="5,5,182,5">
+                <Hyperlink Click="Zd55_Click" FontSize="20">Задание 55</Hyperlink>
+            </TextBlock>
+            <TextBlock Margin="5,5,182,5">
                 <Hyperlink Click="Zd6_Click" FontSize="20">Задание 6</Hyperlink>
             </TextBlock>
         </StackPanel>
