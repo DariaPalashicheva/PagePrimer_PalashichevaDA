@@ -18,7 +18,7 @@
             <ColumnDefinition Width="219*"/>
             <ColumnDefinition Width="397*"/>
         </Grid.ColumnDefinitions>
-        <Frame Source="Framezd55.xaml" HorizontalAlignment="Left" Height="367" Margin="10,0,0,0" VerticalAlignment="Top" Width="397" Grid.Row="1" Grid.Column="0" Grid.RowSpan="3"/>
+        <Frame Source="Framezd55.xaml" HorizontalAlignment="Left" Height="367" Margin="10,0,0,0" VerticalAlignment="Top" Width="566" Grid.Row="1" Grid.Column="0" Grid.RowSpan="3"/>
         <Button Grid.Column="0" Grid.Row="0" Width="100" HorizontalAlignment="Left" Margin="0,4,0,3">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
@@ -57,11 +57,28 @@
         <TextBlock Grid.Row="1" Grid.Column="1" Text="User ID:" Height="20" Width="100" HorizontalAlignment="Left" VerticalAlignment="Center"  />
         <TextBox x:Name="UserID" Grid.Row="1" Height="20" Width="150" HorizontalAlignment="Right" VerticalAlignment="Center" Grid.Column="1"/>
 
-        <TextBlock Grid.Row="2" Grid.Column="1" Text="Issue Subject:" Height="20" Width="100" HorizontalAlignment="Left" VerticalAlignment="Top"/>
-        <TextBox x:Name="IssueSubject" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2" Height="20" Width="478" HorizontalAlignment="Center" VerticalAlignment="Top" />
+        <TextBlock Grid.Row="2" Grid.Column="1" Text="Issue Subject:" Height="20" Width="100" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,20,0,0"/>
+        <TextBox x:Name="IssueSubject" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2" Height="20" Width="470" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,20,0,0"/>
         <TextBlock Grid.Row="2" Grid.Column="1" Text="Screen:" Height="20" Width="100" HorizontalAlignment="Left" VerticalAlignment="Center"/>
         <TextBox x:Name="Screen" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2" Height="20" Width="478" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         <TextBlock Grid.Row="2" Grid.Column="1" Text="Issue Further Details:" Height="20" Width="100" HorizontalAlignment="Left" VerticalAlignment="Bottom"/>
         <TextBox x:Name="IssueFurtherDetails" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2" Height="70" Width="478" HorizontalAlignment="Right" VerticalAlignment="Bottom" />
+
+        <Button Content="Log Job" Grid.Row="3" Grid.Column="1" Width="80" Height="30" HorizontalAlignment="Right" VerticalAlignment="Top">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFBDBDBD" Offset="1"/>
+                    <GradientStop Color="White"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button Content="Cancel" Grid.Row="3" Grid.Column="2" Width="80" Height="30" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFBDBDBD" Offset="1"/>
+                    <GradientStop Color="White"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
     </Grid>
 </Window>

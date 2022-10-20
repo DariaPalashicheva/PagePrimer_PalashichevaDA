@@ -23,6 +23,29 @@ namespace PagePrimer_PalashichevaDA
         public Framezd55()
         {
             InitializeComponent();
+            List<Stroka> strokas = new List<Stroka>();
+            strokas.Add(new Stroka() { ID = 1, Det = new DateTime(2016, 6, 24), UserID = "Admin", IssueSubject = "Initial Logged Job", Screen = "Initial Logged Job", FurtherInformation = "Initial Logged Job", JobStatus = "Closed" });
+
+            dg.ItemsSource = strokas;
         }
+
+        public class Stroka
+        {
+            public int ID { get; set; }
+
+            public string UserID { get; set; }
+
+            public string IssueSubject { get; set; }
+
+            public string Screen { get; set; }
+
+            public string FurtherInformation { get; set; }
+
+            public string JobStatus { get; set; }
+
+            public DateTime Det { get; set; }
+
+        }
+
     }
 }
