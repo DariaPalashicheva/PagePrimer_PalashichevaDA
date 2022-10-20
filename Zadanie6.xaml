@@ -7,12 +7,17 @@
         mc:Ignorable="d"
         Title="Zadanie6" Height="450" Width="800">
     <Grid>
-        <Rectangle Fill="#FF3E4A72" HorizontalAlignment="Left" Height="422" Margin="0,-3,0,0" Stroke="Black" VerticalAlignment="Top" Width="120"/>
-        <Image Source="Image/home.png" Margin="25,31,709,330" MouseDown="Image_MouseDown"/>
-        <Image Source="Image/inbox.png" Margin="25,102,709,260"/>
-        <Image Source="Image/cloud.png" Margin="-4,143,677,149"/>
-        <Image Source="Image/sett.png" Margin="25,253,709,109"/>
-        <Image Source="Image/spam.png" Margin="25,333,709,28"/>
-        <Frame x:Name="main" Source="Empty.xaml" HorizontalAlignment="Left" Height="419" Margin="120,0,0,0" VerticalAlignment="Top" Width="672"/>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="61*"/>
+            <ColumnDefinition Width="335*"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.Column="0" Background="#FF3E4A72">
+            <Image Source="Image/home.png" Width="50" Height="50" MouseDown="Image_MouseDown" Margin="0,40,0,20"/>
+            <Image Source="Image/inbox.png" Width="50" Height="50"/>
+            <Image Source="Image/cloud.png" Width="90" Height="90"/>
+            <Image Source="Image/sett.png" Width="50" Height="50" Margin="0,0,0,20"/>
+            <Image Source="Image/spam.png" Width="50" Height="50"/>
+        </StackPanel>
+        <Frame Grid.Column="1" x:Name="main" Source="Empty.xaml" HorizontalAlignment="Left" Height="419" Margin="1,0,-3,0" VerticalAlignment="Top" Width="672"/>
     </Grid>
 </Window>
